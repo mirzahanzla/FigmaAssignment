@@ -120,7 +120,7 @@ nav {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin: 4px 38px;
 }
@@ -158,9 +158,10 @@ nav {
   font-weight: 600;
   font-size: 13px;
   gap: 2px;
-  padding: 0px 2px;
+  padding: 0 2px;
   line-height: 16px;
 }
+
 .template-2-4 img {
   padding: 1px 4px;
 }
@@ -180,23 +181,26 @@ nav {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
+
 .template-2-7 p {
   color: #344563;
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
+
   /* font-weight: 20px; */
   width: 208px;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .template-2-8 {
   display: flex;
+
   /* font-style: normal; */
   font-weight: 500;
   font-size: 12px;
@@ -218,6 +222,7 @@ nav {
   font-size: 17px;
   border: 1px solid #6070ff;
   color: #396df2;
+
   /* font-style: normal; */
   border-radius: 8px;
   background-color: #f7f7f9;
