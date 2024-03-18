@@ -405,3 +405,99 @@ nav {
   margin: 0;
   padding: 0;
 }
+
+.forming {
+  width: 375px;
+  height: 622px;
+  background-image: url("./assets/images/Contact\ me.png");
+  top: 5410px;
+}
+
+.formDiv {
+  width: 801px;
+  height: 56px;
+  top: 4734px;
+  left: -213px;
+  background: #ffffff;
+
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+input[type="text"] {
+  margin: auto;
+  width: 244px;
+  height: 34px;
+  position: relative;
+  top: 10px;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+input[type="email"] {
+  margin: auto;
+  width: 244px;
+  height: 34px;
+  position: relative;
+  top: 19px;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+textarea {
+  margin: auto;
+  width: 244px;
+  text-align: start;
+  height: 122px;
+  position: relative;
+  top: 28px;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+.abdur {
+  position: relative;
+  top: 42px;
+  font-size: 17px;
+  left: 60px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.hanzla {
+  position: relative;
+  top: 66px;
+}
+
+#formDiv {
+  width: 42%;
+  font-size: 27px;
+  margin: 3px 106px;
+  /* margin: 3px 122px */
+}
+#formDiv h2 {
+  font-size: 30px;
+  color: #f7f7f9;
+
+  /* margin: 3px 122px */
+}
+.abd {
+  
+  width: 75%;
+  margin: 20px 42px;
+}
+.abd p {
+  width: 76%;
+  color: #f7f7f9;
+  line-height: 21px;
+  margin: 32px 57px;
+  position: relative;
+  bottom: 9px;
+}
+
+.lig {
+  position: relative;
+  /* margin: auto; */
+  left: 79px;
+}
