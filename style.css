@@ -223,8 +223,6 @@ nav {
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
-
-  /* font-weight: 20px; */
   width: 208px;
   line-height: 21px;
   letter-spacing: 0;
@@ -233,8 +231,6 @@ nav {
 
 .template-2-8 {
   display: flex;
-
-  /* font-style: normal; */
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -255,8 +251,6 @@ nav {
   font-size: 17px;
   border: 1px solid #6070ff;
   color: #396df2;
-
-  /* font-style: normal; */
   border-radius: 8px;
   background-color: #f7f7f9;
   line-height: 24px;
@@ -325,7 +319,6 @@ nav {
   margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
-  list-style-type: none;
 }
 
 .list-title1 {
@@ -342,7 +335,6 @@ nav {
   margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
-  list-style-type: none;
 }
 
 .ul.lists {
