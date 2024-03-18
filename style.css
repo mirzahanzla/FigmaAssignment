@@ -51,6 +51,7 @@ header {
   padding-left: 32px;
   padding-right: 34px;
 }
+
 .jobdescription {
   width: 343px;
 }
@@ -314,7 +315,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -327,11 +327,11 @@ nav {
   padding-left: 0;
   list-style-type: none;
 }
+
 .list-title1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -364,30 +364,36 @@ nav {
   margin: 0;
   justify-content: space-around;
 }
+
 .lii {
   position: relative;
   top: 26px;
   margin-left: 153px;
 }
+
 .lii1 {
   position: relative;
   top: 26px;
   margin-left: 126px;
 }
+
 .liii {
   position: relative;
   top: 26px;
   margin-left: 188px;
 }
+
 .lists1 {
   display: flex;
   list-style-type: none;
   position: relative;
   left: -28px;
 }
+
 .ul.lists1 {
   list-style-type: none;
 }
+
 .aa {
   list-style-type: none;
 }
