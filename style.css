@@ -418,13 +418,11 @@ nav {
   height: 56px;
   top: 4734px;
   left: -213px;
-  background: #ffffff;
-
-  font-family: Poppins;
+  background: #fff;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -437,6 +435,7 @@ input[type="text"] {
   border: 2px solid white;
   border-radius: 14px;
 }
+
 input[type="email"] {
   margin: auto;
   width: 244px;
@@ -446,6 +445,7 @@ input[type="email"] {
   border: 2px solid white;
   border-radius: 14px;
 }
+
 textarea {
   margin: auto;
   width: 244px;
@@ -456,6 +456,7 @@ textarea {
   border: 2px solid white;
   border-radius: 14px;
 }
+
 .abdur {
   position: relative;
   top: 42px;
@@ -474,19 +475,22 @@ textarea {
   width: 42%;
   font-size: 27px;
   margin: 3px 106px;
+
   /* margin: 3px 122px */
 }
+
 #formDiv h2 {
   font-size: 30px;
   color: #f7f7f9;
 
   /* margin: 3px 122px */
 }
+
 .abd {
-  
   width: 75%;
   margin: 20px 42px;
 }
+
 .abd p {
   width: 76%;
   color: #f7f7f9;
@@ -498,6 +502,7 @@ textarea {
 
 .lig {
   position: relative;
+
   /* margin: auto; */
   left: 79px;
 }
