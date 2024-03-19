@@ -437,7 +437,7 @@ nav {
 
 .forming {
   width: 375px;
-  height: 622px;
+  height: 643px;
   background-image: url("./assets/images/Contact\ me.png");
   background-repeat: no-repeat;
   top: 5410px;
@@ -556,6 +556,7 @@ textarea {
 
 #formDiv h2 {
   font-size: 32px;
+  width: 188px;
   color: #f9f7f8;
 }
 
