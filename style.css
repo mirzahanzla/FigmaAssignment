@@ -12,13 +12,23 @@ body {
 .my-logo {
   margin-top: 7px;
 }
-
-.main-container {
+.color{
   background-color: #fff;
   border-bottom-left-radius: 61px;
   width: 100vw;
   max-width: 375px;
-  height: 110vh;
+  height: 100%;
+
+}
+
+.main-container {
+  background-color: #fff;
+  background-color: #ebe8f5c4;
+
+  border-bottom-left-radius: 61px;
+  width: 100vw;
+  max-width: 375px;
+  height: 100%;
 }
 
 header {
@@ -255,6 +265,8 @@ nav {
   background-color: #f7f7f9;
   line-height: 24px;
   padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
   gap: 10px;
 }
 
@@ -267,6 +279,8 @@ nav {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
   padding: 12px;
   margin-left: 24px;
   gap: 10px;
@@ -381,6 +395,13 @@ nav {
   position: relative;
   left: -28px;
 }
+.lists2 {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  left: -28px;
+  bottom: 25px;
+}
 
 .ul.lists1 {
   list-style-type: none;
@@ -388,6 +409,13 @@ nav {
 
 .aa {
   list-style-type: none;
+  position: relative;
+  bottom: 17px;
+}
+.aa1 {
+  list-style-type: none;
+  position: relative;
+  bottom: 40px;
 }
 
 .lists h4 {
@@ -410,6 +438,7 @@ nav {
   width: 375px;
   height: 622px;
   background-image: url("./assets/images/Contact\ me.png");
+  background-repeat: no-repeat;
   top: 5410px;
 }
 
@@ -431,6 +460,7 @@ input[type="text"] {
   width: 244px;
   height: 34px;
   position: relative;
+  font-family: monospace;
   top: 10px;
   border: 2px solid white;
   border-radius: 14px;
@@ -441,6 +471,7 @@ input[type="email"] {
   width: 244px;
   height: 34px;
   position: relative;
+  font-family: monospace;
   top: 19px;
   border: 2px solid white;
   border-radius: 14px;
@@ -451,6 +482,7 @@ textarea {
   width: 244px;
   text-align: start;
   height: 122px;
+  padding: 10px 3px;
   position: relative;
   top: 28px;
   border: 2px solid white;
@@ -461,10 +493,51 @@ textarea {
   position: relative;
   top: 42px;
   font-size: 17px;
-  left: 60px;
-  border-radius: 8px;
-  border: 2px solid white;
+  background-color: #f9f7f9;
+  
+  border-radius: 1px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.abdur:hover {
+  animation: colorChange 0.5s infinite alternate; 
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #007bff;
+  }
+  100% {
+    background-color: #dc3545; 
+  }
+}
+.see-project:hover {
+  animation: colorChange 0.5s infinite alternate; 
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #f9f7f8;
+  }
+  100% {
+    background-color: #ece8e8; 
+  }
+}
+.resume:hover {
+  animation: colorChange 0.5s infinite alternate; 
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #f9f7f8;
+  }
+  100% {
+    background-color: #ece8e8; 
+  }
+}
+
 
 .hanzla {
   position: relative;
@@ -476,14 +549,12 @@ textarea {
   font-size: 27px;
   margin: 3px 106px;
 
-  /* margin: 3px 122px */
 }
 
 #formDiv h2 {
-  font-size: 30px;
-  color: #f7f7f9;
+  font-size: 32px;
+  color: #f9f7f8;
 
-  /* margin: 3px 122px */
 }
 
 .abd {
@@ -492,10 +563,11 @@ textarea {
 }
 
 .abd p {
-  width: 76%;
+  width: 93%;
+  word-spacing: 2px;
   color: #f7f7f9;
-  line-height: 21px;
-  margin: 32px 57px;
+  line-height: 24px;
+  margin: 32px 26px;
   position: relative;
   bottom: 9px;
 }
@@ -503,6 +575,24 @@ textarea {
 .lig {
   position: relative;
 
-  /* margin: auto; */
-  left: 79px;
+  left: 60px;
+}
+
+
+.half{
+  background-image: url('./assets/images/contact\ form\ shapes-mobile@2x.png');
+  background-repeat: no-repeat;
+  
+  position: relative;
+  right: 1px;
+  
+
+
+}
+.mirza{
+  opacity: 0.7;
+  position: relative;
+  bottom: 78px;
+  z-index: 1;
+  left: 243px
 }
