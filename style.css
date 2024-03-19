@@ -12,19 +12,18 @@ body {
 .my-logo {
   margin-top: 7px;
 }
-.color{
+
+.color {
   background-color: #fff;
   border-bottom-left-radius: 61px;
   width: 100vw;
   max-width: 375px;
   height: 100%;
-
 }
 
 .main-container {
   background-color: #fff;
   background-color: #ebe8f5c4;
-
   border-bottom-left-radius: 61px;
   width: 100vw;
   max-width: 375px;
@@ -395,6 +394,7 @@ nav {
   position: relative;
   left: -28px;
 }
+
 .lists2 {
   display: flex;
   list-style-type: none;
@@ -412,6 +412,7 @@ nav {
   position: relative;
   bottom: 17px;
 }
+
 .aa1 {
   list-style-type: none;
   position: relative;
@@ -494,7 +495,6 @@ textarea {
   top: 42px;
   font-size: 17px;
   background-color: #f9f7f9;
-  
   border-radius: 1px;
   border: 1px solid white;
   cursor: pointer;
@@ -502,42 +502,46 @@ textarea {
 }
 
 .abdur:hover {
-  animation: colorChange 0.5s infinite alternate; 
+  animation: colorChange 0.5s infinite alternate;
 }
 
 @keyframes colorChange {
   0% {
     background-color: #007bff;
   }
+
   100% {
-    background-color: #dc3545; 
+    background-color: #dc3545;
   }
 }
+
 .see-project:hover {
-  animation: colorChange 0.5s infinite alternate; 
+  animation: colorChange 0.5s infinite alternate;
 }
 
 @keyframes colorChange {
   0% {
     background-color: #f9f7f8;
   }
+
   100% {
-    background-color: #ece8e8; 
+    background-color: #ece8e8;
   }
 }
+
 .resume:hover {
-  animation: colorChange 0.5s infinite alternate; 
+  animation: colorChange 0.5s infinite alternate;
 }
 
 @keyframes colorChange {
   0% {
     background-color: #f9f7f8;
   }
+
   100% {
-    background-color: #ece8e8; 
+    background-color: #ece8e8;
   }
 }
-
 
 .hanzla {
   position: relative;
@@ -548,13 +552,11 @@ textarea {
   width: 42%;
   font-size: 27px;
   margin: 3px 106px;
-
 }
 
 #formDiv h2 {
   font-size: 32px;
   color: #f9f7f8;
-
 }
 
 .abd {
@@ -574,25 +576,20 @@ textarea {
 
 .lig {
   position: relative;
-
   left: 60px;
 }
 
-
-.half{
+.half {
   background-image: url('./assets/images/contact\ form\ shapes-mobile@2x.png');
   background-repeat: no-repeat;
-  
   position: relative;
   right: 1px;
-  
-
-
 }
-.mirza{
+
+.mirza {
   opacity: 0.7;
   position: relative;
   bottom: 78px;
   z-index: 1;
-  left: 243px
+  left: 243px;
 }
