@@ -22,7 +22,10 @@ body {
 .main-container {
   background-color: #fff;
   background-color: #ebe8f5c4;
+<<<<<<< HEAD
   margin: auto;
+=======
+>>>>>>> 6bbe8c751322646ef2eaeb253732e2a9d5783ffc
   border-bottom-left-radius: 61px;
   width: 100vw;
   max-width: 375px;
@@ -452,7 +455,10 @@ nav {
   width: 375px;
   height: 643px;
   background-image: url("./assets/images/Contact\ me.png");
+<<<<<<< HEAD
   background-size: cover;
+=======
+>>>>>>> 6bbe8c751322646ef2eaeb253732e2a9d5783ffc
   background-repeat: no-repeat;
   top: 5410px;
 }
@@ -504,11 +510,14 @@ textarea {
   border-radius: 14px;
 }
 
+<<<<<<< HEAD
 .template-2 > img {
   display: none;
   visibility: hidden;
 }
 
+=======
+>>>>>>> 6bbe8c751322646ef2eaeb253732e2a9d5783ffc
 .abdur {
   position: relative;
   top: 42px;
@@ -600,7 +609,11 @@ textarea {
 }
 
 .half {
+<<<<<<< HEAD
   /* background-image: url('./assets/images/contact\ form\ shapes-mobile@2x.png'); */
+=======
+  background-image: url('./assets/images/contact\ form\ shapes-mobile@2x.png');
+>>>>>>> 6bbe8c751322646ef2eaeb253732e2a9d5783ffc
   background-repeat: no-repeat;
   position: relative;
   right: 1px;
@@ -613,6 +626,7 @@ textarea {
   z-index: 1;
   left: 243px;
 }
+<<<<<<< HEAD
 
 @media (min-width: 768px) {
   .main-container {
@@ -1083,3 +1097,5 @@ textarea {
     bottom: 47px;
   }
 }
+=======
+>>>>>>> 6bbe8c751322646ef2eaeb253732e2a9d5783ffc
